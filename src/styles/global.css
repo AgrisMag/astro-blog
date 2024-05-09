@@ -29,10 +29,11 @@ nav {
   padding: 1rem 0;
 }
 
-.main-content {
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .hamburger {
