@@ -15,7 +15,8 @@ body {
   min-height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
-  background-color: #ecd2cb;
+  background-color: #3a606e;
+  color: #fff;
 }
 
 * {
@@ -34,6 +35,15 @@ nav {
   justify-content: end;
   align-items: center;
   padding: 1rem 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 .main-container {
@@ -79,7 +89,7 @@ nav {
 
 .nav-links a:hover,
 a:focus {
-  background-color: #ff9776;
+  background-color: #034275;
 }
 
 .expanded {
