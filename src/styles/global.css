@@ -9,41 +9,18 @@ body {
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
+  /* max-width: 80ch; */
   padding: 1rem;
   line-height: 1.5;
   min-height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
-  background-color: #3a606e;
-  color: #fff;
+  /* background-color: #3a606e; */
+  /* color: #fff; */
 }
 
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
-}
-
-/* nav styles */
-
-nav {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 1rem 0;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
 }
 
 .main-container {
